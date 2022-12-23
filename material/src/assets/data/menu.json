@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Dashboard",
+        "redirect": "/dashboard"
+    },
+    {
+        "nombre": "Usuarios",
+        "redirect": "/dashboard/usuarios"
+    },
+    {
+        "nombre": "Habitaciones",
+        "redirect": "/dashboard/habitaciones"
+    },
+    {
+        "nombre": "Reservas",
+        "redirect": "/dashboard/reservas"
+    },
+    {
+        "nombre": "Servicios",
+        "redirect": "/dashboard/servicios"
+    },
+    {
+        "nombre": "Reportes",
+        "redirect": "/dashboard/reportes"
+    },
+    {
+        "nombre": "Facturacion",
+        "redirect": "/dashboard/facturacion"
+    }
+]

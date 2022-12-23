@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
+import { DashboardModule } from './components/dashboard/dashboard.module';
 
 const routes: Routes = [
   {
@@ -8,7 +9,10 @@ const routes: Routes = [
 
   },
   {
-    path: '', redirectTo: 'login', pathMatch: 'full'
+    path: '', redirectTo: 'login', pathMatch: 'full' 
+  },
+  {
+    path: 'dashboard', loadChildren: () => import('./components/dashboard/dashboard.module').then(x => x.DashboardModule) 
   },
   {
     path: '**', redirectTo: 'login', pathMatch: 'full'
